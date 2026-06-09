@@ -6,7 +6,9 @@ public class Main {
         int b=mt.nextInt();
         int c=a+b;
         int d=a-b;
+        int e=a*b;
         System.out.println("Addition: " + c);
         System.out.println("Subtraction: " + d);
+        System.out.println("Multiplication: " + e);
     }
 }
