@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B1220;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16213E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00C2FF;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00D9FF;
+}
+
+.card {
+  @apply bg-automotive-card rounded-lg p-6 border border-automotive-primary border-opacity-20;
+}
+
+.btn-primary {
+  @apply bg-automotive-primary hover:bg-automotive-accent text-black font-semibold py-2 px-4 rounded-lg transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-automotive-card hover:bg-opacity-80 text-automotive-primary font-semibold py-2 px-4 rounded-lg border border-automotive-primary transition-colors;
+}
+
+.status-healthy {
+  @apply text-automotive-success;
+}
+
+.status-warning {
+  @apply text-automotive-warning;
+}
+
+.status-danger {
+  @apply text-automotive-danger;
+}

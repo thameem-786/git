@@ -1,0 +1,35 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #16213E;
+  border-bottom: 1px solid #00C2FF;
+  border-bottom-opacity: 0.2;
+}
+
+.nav-left h1 {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.nav-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-logout {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #FF6B6B;
+  color: #FF6B6B;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-logout:hover {
+  background: #FF6B6B;
+  color: #FFFFFF;
+}
